@@ -26,6 +26,15 @@ int main() {
     int num4 = {5};
     int num5 = {10};
 
+    std::cout << std::showpoint;
+    std::cout << "showpoint num1: " << num1 << std::endl;
+    std::cout << "showpoint num2: " << num2 << std::endl;
+    std::cout << "showpoint num3: " << num3 << std::endl;
+
+    std::cout << "showpoint num4: " << num4 << std::endl;
+    std::cout << "showpoint num5: " << num5 << std::endl;
+
+
     std::cout << std::boolalpha;
 
     std::cout << "num5 < num5: " << (num4 < num5) << std::endl;
