@@ -43,5 +43,21 @@ int main() {
 
     std::cout << "result: " << result << std::endl;
 
+    short int num6 = {10};
+    short int num7 = {20};
+
+    char char8 = {40};
+    char char9 = {50};
+
+    auto result67 = num6 + num7;
+    auto result89 = char8 + char9;
+
+    std::cout << "result67: " << result67 << std::endl;
+    std::cout << "result89: " << result89 << std::endl;
+
+    // operators can imply change 1 byte or 2 bytes to 4 bytes
+    std::cout << "size of result67: " << sizeof(result67) << std::endl;
+    std::cout << "size of result89: " << sizeof(result89) << std::endl;
+
     return 0;
 }
