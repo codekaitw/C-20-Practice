@@ -9,6 +9,16 @@
                 "-fcolor-diagnostics",
                 "-fansi-escape-codes",
                 "-g",
+                // Turn off compliant extentions, in order following the C++ standard
+                "-pedantic-errors",
+                // Turn on warning levels up to the maximum
+                "-Wall",
+                "-Weffc++",
+                "-Wextra",
+                "-Wconversion",
+                "-Wsign-conversion",
+                // Treat the warning as an error
+                "-Werror",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
