@@ -1,5 +1,6 @@
 {
     "C_Cpp.default.compilerPath": "/opt/homebrew/opt/llvm/bin/clang++",
+    "C_Cpp.clang_format_path": "/opt/homebrew/bin/clang-format",
     "files.associations": {
         "__bit_reference": "cpp",
         "__config": "cpp",

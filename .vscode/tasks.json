@@ -19,7 +19,7 @@
                 "-Wsign-conversion",
                 // Treat the warning as an error
                 "-Werror",
-                "${file}",
+                "${fileDirname}/**.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
             ],
