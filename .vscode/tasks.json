@@ -19,7 +19,10 @@
                 "-Wsign-conversion",
                 // Treat the warning as an error
                 "-Werror",
+                // source files
                 "${fileDirname}/**.cpp",
+                // Header file path setting
+                "-I${fileDirname}/includes",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
             ],
